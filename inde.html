@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+​
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>ToDoリスト</h1>
+    ​
+    <div>
+      <input id="allbtn" type="radio" name="level" value="ok"  checked />
+      <label>すべて</label>
+      <input type="radio" name="level" value="ok" id="donebtn"  />
+      <label>完了</label>
+      <input type="radio" name="level" value="ok" id="workbtn"   />
+      <label>作業中</label>
+
+      <table>
+        <thead>
+            <tr>
+              <th>ID</th>
+              <th>コメント</th>
+              <th>状態</th>
+            </tr>
+        </thead>
+        <tbody id="new-task"></tbody>
+        </table>
+      <h2>新規タスクの増加</h2>
+      ​​
+      <p>
+        <input type="text" id="input" value="" />
+        <button type="button" id="output" value="">追加</button>
+      </p>
+    </div>
+  </body>
+<script src="main.js"></script>
+</html>
